@@ -1,0 +1,19 @@
+.conbtn{
+    background-color: rgb(31, 199, 212);
+    border-radius: 25px;
+    color:white;
+    margin-left: auto;
+    padding: 6px 19px 6px 19px;
+}
+
+.conbtn:hover{
+    color: white;
+}
+
+.scondimg{
+    border: 1px solid gray;
+    background-color: rgb(180, 179, 179);
+    opacity: 0.9; border-radius: 25px; 
+    padding: 5px;
+    margin-left: 1rem;
+}

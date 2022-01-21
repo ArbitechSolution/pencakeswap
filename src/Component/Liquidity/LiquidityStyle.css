@@ -1,0 +1,47 @@
+.btnheader{
+    background-color: rgb(31, 199, 212);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+}
+.btnheader:hover{
+    background-color: rgb(110, 206, 212);
+}
+
+.bodycardonediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(130, 98, 219);
+}
+.bodycenterdivtext{
+    color: rgb(189, 185, 185);
+    margin-top: 3rem;
+    text-align: center;
+}
+.bodyenddiv{
+    margin-top: 3rem;
+    color: rgb(82, 43, 189);
+    font-size: 14px;
+    font-family: Kanit, sans-serif;
+    font-weight: bold;
+}
+
+.footerbodydiv{
+    color: rgb(82, 43, 189);
+    font-size: 14px;
+    font-family: Kanit, sans-serif;
+    font-weight: bold;
+}
+
+.enddivA{
+    color: rgb(31, 199, 212);
+}
+
+.enddivA:hover{
+    color: rgb(31, 199, 212);
+}

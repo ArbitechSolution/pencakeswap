@@ -1,0 +1,520 @@
+.Homebg{
+    
+   
+}
+
+
+
+/* Imge Setting here--------------------------------------- */
+.imgbutton{
+    margin-top:-1rem;
+    width: 6rem;
+}
+
+/* Here Days and mont top bar shoe Like Time----------------------------------------- */
+.innerdiv{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 30%;
+  
+}
+
+/* Font and color change -------------------------------------------- */
+
+.innerdiv div{
+    font-size: 1rem;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.innermaindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* First roe and first coloum which is bnb uss----------------------- */
+
+.innerbnb{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 3rem;
+  
+}
+.innerbnb h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 0px 7px 20px;
+    color: #280d97;   
+    margin-left:0.5rem;
+}
+
+.bnbimge{
+    width: 6.5rem;
+    position: absolute;
+    margin-left: -3.3rem;
+    margin-top:-0.3rem;
+  
+}
+
+.Bnbtodollor{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+
+/* arrow and pic here in this setion ---------------------------------- */
+
+.innerdivbutton{
+    width: 10rem;
+    background-color: white;
+
+}
+
+.displynone{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+
+
+/* Timer and reward section start here=------------------------------------------- */
+
+.thisisTimerdiv{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    padding: 5px 20px 1px 20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.timerseconddivQutionmarq{
+margin-left: 2rem;
+}
+
+
+.monthanddayshow{
+   
+    margin-left: 8px;
+    margin-top: 0.5rem;
+    font-family: Proxima Nova;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #121212;
+
+}
+.CLOCKIMG{
+  
+    position:absolute;
+    width: 3rem;
+    margin-top: -3rem;
+    margin-left: 6rem;
+    
+}
+
+.h4div{
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+
+/* Qutiommarkdiv here---------------------------------------------- */
+.innerquestionmark{
+    background-color: #696f86;
+    width: 1rem;
+    padding: 10px 40px 10px 12px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iconquestion{
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+.icondollormaindiv{
+    background-color: #696f86;
+    width: 1rem;
+    padding: 9px 41px 6px 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.icondollor{
+    font-size: 25px;
+    color: #ffffff;
+}
+.iconarrow{
+    color: #ffffff;
+    margin-left: 0.7rem;
+    font-size: 15px;
+    
+}
+
+
+/* Inlinediv timer and arrow in a single row------------------------------------------------ */
+.maindivtosecondsection{
+   margin-top: 4rem;
+
+ 
+
+ 
+
+}
+.Timerdivmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+@media (min-width:280px) and (max-width:370px) {
+
+    .maindivtosecondsection{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .Timerdivmain{
+     margin-left: 16rem;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:480px) {
+
+    .innerdiv{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        width: 100%;
+      
+    }
+    .timerseconddivQutionmarq{
+        /* margin-left: -0.5rem; */
+        }
+    .innerquestionmark{
+        background-color: #696f86;
+        width: 1rem;
+        padding: 10px 30px 10px 7px;
+        border-radius: 20px;
+        margin-left: -0.5rem;
+     
+    }
+    .iconquestion{
+        font-size: 20px;
+        color: #ffffff;
+    
+    }
+    
+    .icondollormaindiv{
+        background-color: #696f86;
+        width: 1rem;
+        padding: 10px 35px 5px 10px;
+        border-radius: 20px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -1.5rem;
+      
+    }
+    .icondollor{
+        font-size: 18px;
+        color: #ffffff;
+    }
+    .iconarrow{
+        color: #ffffff;
+        margin-left: 0.4rem;
+        font-size: 15px;
+        
+    }
+    
+.thisisTimerdiv{
+    width: 5rem;
+    border-radius: 0px 25px 0 25px ;
+    padding: 5px 20px 1px 20px ;
+    margin-left: 2rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+   
+    /* align-items: center; */
+}
+
+.CLOCKIMG{
+  
+    position:absolute;
+    width: 2.7rem;
+    margin-top: -2.5rem;
+    margin-left: 5.5rem;
+    
+}
+
+
+.h4div{
+    font-weight: bold;
+    font-size: 20px !important;
+    margin-left: -2.2rem;
+    margin-top: -0.2rem;
+}
+.Timerdivmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.monthanddayshow{
+    font-size: 15px;
+    margin-left: -1rem;
+    margin-top: -0.5rem;
+}
+.maindivtosecondsection{
+    display: flex;
+    margin-left: -2rem;
+}
+
+
+
+.innerbnb{
+    background-color: #ffffff;
+    border-radius: 25px 0px 25px 0;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-left: 2rem;
+    /* justify-content: space-between; */
+    align-items: center;
+  
+}
+.innerbnb h2{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 0px 7px 20px;
+    color: #280d97;   
+    margin-left:1rem;
+}
+
+.bnbimge{
+    width: 6.2rem;
+    position: absolute;
+    margin-left: -0.5rem;
+    margin-top:-0.1rem;
+}
+.Bnbtodollor{
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:480px) and (max-width:550px) {
+
+    .innerdiv{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        width: 100%;
+      
+    }
+    .timerseconddivQutionmarq{
+        /* margin-left: -0.5rem; */
+        }
+   
+  
+
+  
+    
+.thisisTimerdiv{
+    width: 5rem;
+    border-radius: 0px 25px 0 25px ;
+    padding: 5px 20px 1px 20px ;
+    margin-left: 2rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+   
+    /* align-items: center; */
+}
+
+.CLOCKIMG{
+  
+    position:absolute;
+    width: 2.7rem;
+    margin-top: -2.5rem;
+    margin-left: 5.5rem;
+    
+}
+
+
+.h4div{
+    font-weight: bold;
+    font-size: 20px !important;
+    margin-left: -2.2rem;
+    margin-top: -0.2rem;
+}
+.Timerdivmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end !important;
+   
+}
+.bnbmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start !important;
+
+}
+.monthanddayshow{
+    font-size: 15px;
+    margin-left: -1rem;
+    margin-top: -0.5rem;
+}
+.maindivtosecondsection{
+    display: flex;
+    margin-left: -2rem;
+}
+
+
+
+.innerbnb{
+    background-color: #ffffff;
+    border-radius: 25px 0px 25px 0;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-left: 2rem;
+    /* justify-content: space-between; */
+    align-items: center;
+  
+}
+.innerbnb h2{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 0px 7px 20px;
+    color: #280d97;   
+    margin-left:1rem;
+}
+
+.bnbimge{
+    width: 6.2rem;
+    position: absolute;
+    margin-left: -0.5rem;
+    margin-top:-0.1rem;
+}
+.Bnbtodollor{
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+   
+    
+    
+}
+
+
+
+
+
+
+
+@media (min-width:380px) and (max-width:480px) {
+    .maindivtosecondsection{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width:600px) and (max-width:992px) {
+
+
+    .innerdiv{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        width: 80%;
+      
+    }
+    .innerdiv div{
+        font-size: 1.5rem;
+        color: gray;
+        font-weight: bold;
+    
+    }
+
+}
+
+
+
+@media (min-width:480px) and (max-width:600px) {
+
+    .innerdiv{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        width: 100%;
+      
+    }
+    .innerdiv div{
+        font-size: 1.5rem;
+        color: gray;
+        font-weight: bold;
+    
+    }
+   
+}
+
+
+@media (min-width:280px) and (max-width:992px) {
+
+
+
+  .displynone{
+    display: none;
+   }
+}

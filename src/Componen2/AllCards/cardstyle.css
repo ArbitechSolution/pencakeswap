@@ -1,0 +1,245 @@
+.maincard1{
+    width: 315px;
+    border-radius: 25px;
+    height: auto;
+    /* margin-left: -5rem; */
+
+
+}
+
+.maindivofcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+.maindivscroll{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+}
+
+
+/* 
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+   */
+/* --------------------------------------Card Header Here----------------------- */
+
+.headertext01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.headerdiv{
+    height: 1.3rem !important;
+    border-radius: 25px;
+}
+
+
+.textandiconheader{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+/*   */
+  
+  .react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+.bar{
+    height: 0.5rem !important;
+}
+
+
+
+
+
+/* ------------------------------------Card Body Here----------------------------------- */
+/*  */
+.Uperdivmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.topimgshapes{
+    z-index: -2 !important;
+    margin-top: -0.5rem;
+    width: 100%;
+
+}
+
+.maindeadeOrDoen{
+    margin-top: -4rem;
+}
+.maindeadeOrDoen h2{
+    color: #F55991;
+   font-size: 14px;
+}
+.maindeadeOrDoen h6{
+    color: #696F86;
+   font-size: 14px;
+
+    
+}
+
+.maindeaderupOrDoen{
+    margin-top: -6.5rem;
+    color: white;
+
+}
+.wiinerpool{
+    font-family: Proxima Nova;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #696F86;
+
+}
+.wiinerpool2{
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #696F86;
+
+    
+}
+
+.Bottomimgshapes{
+    margin-top: -2rem;
+    z-index: -100;
+}
+.centercarddiv{
+   
+   border-style: solid;
+   box-sizing: 2px;
+    border-image-source: linear-gradient(180deg, #67D698 0%, #F55991 100%);
+    border: solid 2px #67D698 ;
+    
+    
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 1000 !important;
+    background-color: white;
+    margin-top: -1rem;
+}
+.innerdivcentercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nextbtn1{
+     background: #67D698;
+     color: white;
+     font-family: Proxima Nova;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+    
+}
+
+.nextbtn2{
+    background: #F55991;
+    color: white;
+    font-family: Proxima Nova;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* ---------------------- */
+.innerdivcentercard02{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.innerdivcentercard03{
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:480px) {
+    .maincard1{
+        width: 280px;
+        border-radius: 15px;
+        height: auto;
+    }
+    .topimgshapes{
+        z-index: -2 !important;
+        /* margin-top: -5re; */
+        width: 200px;
+        /* margin-left: 0.2rem; */
+       
+    
+    }
+    .cardbody01{
+         margin-top: -1.2rem !important;
+
+    }
+    .maindeaderupOrDoen{
+        margin-top: -5.7rem;
+        color: white;
+    
+    }
+    .Bottomimgshapes{
+        margin-top: -3rem !important;
+        z-index: -100;
+        width: 200px;
+    }
+
+    
+   
+
+    
+}
