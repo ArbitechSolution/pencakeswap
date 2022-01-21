@@ -75,7 +75,7 @@ function Checkchard() {
                     setdata(0);
                 }
 
-            }, 3000)
+            }, 30000)
         }, [])
 
         return (
