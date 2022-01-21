@@ -1,23 +1,39 @@
-﻿import React from 'react'
-
+﻿import React,{useState,useEffect} from 'react'
+import {loadWeb3} from "../../Component/Api/api"
 import './HomeStyle.css'
 import Countdown from '../CountDown/Countdown'
 
 function Home() {
+    let [btnTxt, setBtTxt]= useState("Connect Wallet")
+
+    const getAccount=async()=>{
+        let acc = await loadWeb3();
+        // console.log("ACC=",acc)
+        if (acc=="No Wallet"){
+            setBtTxt("No Wallet")
+        }      
+        else if(acc=="Wrong Network"){  
+            setBtTxt("Wrong Network")
+        }else{
+            let  myAcc = acc?.substring(0, 4) + "..." + acc?.substring(acc?.length - 4);
+              setBtTxt(myAcc);  
+
+        }        
+    }
+     useEffect(() => {
+            setInterval(() => {
+              getAccount();
+            }, 1000);
+          }, []);
     return (
         <div className='Homebg'>
             <div className="container-fluid">
                 <div className="container">
 
                     <div className="navdiv float-end mt-4">
-                        <button className='btn btn-secondary'>Connect Wallet</button>
+                        <button className='btn btn-secondary'>{btnTxt}</button>
                     </div>
                     <br /><br /><br /><br /> <br />
-
-                    {/* Now Home Start----------------------------------------- */}
-                    {/* text-primary me-4 sm-me-1 fs-6  fw-bold */}
-
-
                     <div className="MainDivHome container ">
                         <div className="innermaindiv">
 
@@ -45,10 +61,6 @@ function Home() {
                         </div>
                     </div>
 
-
-
-
-                    {/* home Button change page---------------------------------------------------------- */}
                     <div className="">
                         <div className="row maindivtosecondsection">
                         <div className="col-lg-2 mt-2 sm-col-3 col-8 ">
