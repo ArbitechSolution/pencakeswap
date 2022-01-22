@@ -28,9 +28,9 @@ function Home() {
     <div className="Homebg">
       <div className="container-fluid">
         <div className="container">
-          <div className="navdiv float-end mt-4">
+          <di v className="navdiv float-end mt-4">
             <button className="btn btn-secondary">{btnTxt}</button>
-          </div>
+          </di>
           <br />
           <br />
           <br />
@@ -47,10 +47,10 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="">
-            <div className="row maindivtosecondsection">
-              <div className="col-lg-2 mt-2 sm-col-3 col-8 ">
-                <div className="bnbmain">
+          {/* <div className=""> */}
+            <div className="row maindivtosecondsection d-flex justify-content-between mt-md-3 mt-2">
+              <div className="col-lg-2 mt-2 col-sm-3 col-8 mt-md-3" >
+                <div className="bnbmain " >
                   <img src="bnb-800x445.png" alt="" className="bnbimge" />
                   <div className="innerbnb">
                     <h2>BNBUSDT</h2>
@@ -59,7 +59,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-lg-5 mt-2 col-1 ">
+              <div className="col-lg-5 mt-2 col-1 mt-3">
                 {/* Here staring button slide------------------------------------------ */}
                 <div className="displynone">
                   <div className="Changebutton  d-flex  justify-content-center">
@@ -75,10 +75,10 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 sm-col-6 col-3">
+              <div className="col-lg-5 cos-ml-6 col-sm-7 mt-md-1 mt-2">
                 {/* Now we start side reward and timer div------------------------------ */}
 
-                <div className="Timerdivmain">
+                <div className="Timerdivmain" >
                   <div className="Timerinnerdiv">
                     <div className="thisisTimerdiv bg-white">
                       <h2 className="text-primary h4div">
@@ -109,7 +109,7 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </div>

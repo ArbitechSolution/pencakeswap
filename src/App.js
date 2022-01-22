@@ -18,7 +18,7 @@ function App() {
       <Home/>
       {/* {/* <Card/> */}
   <Checkchard/> 
-  <Newcard/> 
+  {/* <Newcard/>   */}
   {/* <Checkhere/> */}
 
     </div>

@@ -1,35 +1,32 @@
-.Homebg{
-    
-   
-}
+.Homebg {}
 
 
 
 /* Imge Setting here--------------------------------------- */
-.imgbutton{
-    margin-top:-1rem;
+.imgbutton {
+    margin-top: -1rem;
     width: 6rem;
 }
 
 /* Here Days and mont top bar shoe Like Time----------------------------------------- */
-.innerdiv{
+.innerdiv {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: space-between;
     width: 30%;
-  
+
 }
 
 /* Font and color change -------------------------------------------- */
 
-.innerdiv div{
+.innerdiv div {
     font-size: 1rem;
     color: gray;
     font-weight: bold;
 
 }
 
-.innermaindiv{
+.innermaindiv {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,7 +35,7 @@
 
 /* First roe and first coloum which is bnb uss----------------------- */
 
-.innerbnb{
+.innerbnb {
     background-color: #ffffff;
     border-radius: 15px;
     width: 12rem;
@@ -47,25 +44,26 @@
     /* justify-content: space-between; */
     align-items: center;
     height: 3rem;
-  
+
 }
-.innerbnb h2{
+
+.innerbnb h2 {
     font-size: 20px;
     font-weight: bold;
     padding: 7px 0px 7px 20px;
-    color: #280d97;   
-    margin-left:0.5rem;
+    color: #280d97;
+    margin-left: 0.5rem;
 }
 
-.bnbimge{
+.bnbimge {
     width: 6.5rem;
     position: absolute;
     margin-left: -3.3rem;
-    margin-top:-0.3rem;
-  
+    margin-top: -0.3rem;
+
 }
 
-.Bnbtodollor{
+.Bnbtodollor {
     margin-top: 0.5rem;
     margin-left: 1rem;
 }
@@ -73,13 +71,13 @@
 
 /* arrow and pic here in this setion ---------------------------------- */
 
-.innerdivbutton{
+.innerdivbutton {
     width: 10rem;
     background-color: white;
 
 }
 
-.displynone{
+.displynone {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -91,53 +89,57 @@
 
 /* Timer and reward section start here=------------------------------------------- */
 
-.thisisTimerdiv{
+.thisisTimerdiv {
     width: 8rem;
     height: 2.5rem;
     border-radius: 25px;
-    padding: 5px 20px 1px 20px ;
+    padding: 5px 20px 1px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-  
+    /* background-color: #696f86 !important;     */
+
+
 }
-.timerseconddivQutionmarq{
-margin-left: 2rem;
+
+.timerseconddivQutionmarq {
+    margin-left: 2rem;
 }
 
 
-.monthanddayshow{
-   
+.monthanddayshow {
+
     margin-left: 8px;
     margin-top: 0.5rem;
     font-family: Proxima Nova;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #121212;
 
 }
-.CLOCKIMG{
-  
-    position:absolute;
+
+.CLOCKIMG {
+
+    position: absolute;
     width: 3rem;
     margin-top: -3rem;
     margin-left: 6rem;
-    
+
 }
 
-.h4div{
+.h4div {
     font-weight: bold;
     font-size: 20px !important;
 }
 
 
 /* Qutiommarkdiv here---------------------------------------------- */
-.innerquestionmark{
-    background-color: #696f86;
+.innerquestionmark {
+    background-color: #696f86 !important;
     width: 1rem;
     padding: 10px 40px 10px 12px;
     border-radius: 15px;
@@ -145,13 +147,14 @@ color: #121212;
     flex-direction: column;
     justify-content: center;
 }
-.iconquestion{
+
+.iconquestion {
     font-size: 30px;
     color: #ffffff;
 
 }
 
-.icondollormaindiv{
+.icondollormaindiv {
     background-color: #696f86;
     width: 1rem;
     padding: 9px 41px 6px 10px;
@@ -160,30 +163,33 @@ color: #121212;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
+
 }
-.icondollor{
+
+.icondollor {
     font-size: 25px;
     color: #ffffff;
 }
-.iconarrow{
+
+.iconarrow {
     color: #ffffff;
     margin-left: 0.7rem;
     font-size: 15px;
-    
+
 }
 
 
 /* Inlinediv timer and arrow in a single row------------------------------------------------ */
-.maindivtosecondsection{
-   margin-top: 4rem;
+.maindivtosecondsection {
+    margin-top: 4rem;
 
- 
 
- 
+
+
 
 }
-.Timerdivmain{
+
+.Timerdivmain {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -192,44 +198,49 @@ color: #121212;
 
 @media (min-width:280px) and (max-width:370px) {
 
-    .maindivtosecondsection{
+    /* .maindivtosecondsection {
         display: flex;
         flex-direction: column;
-       
-    }
-    .Timerdivmain{
-     margin-left: 16rem;
+
+    } */
+
+    .Timerdivmain {
+        /* margin-left: 14rem; */
+        justify-content: end;
     }
 
 }
 
 @media (min-width:280px) and (max-width:480px) {
 
-    .innerdiv{
+    .innerdiv {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
-      
+
     }
-    .timerseconddivQutionmarq{
+
+    .timerseconddivQutionmarq {
         /* margin-left: -0.5rem; */
-        }
-    .innerquestionmark{
+    }
+
+    .innerquestionmark {
         background-color: #696f86;
         width: 1rem;
         padding: 10px 30px 10px 7px;
         border-radius: 20px;
         margin-left: -0.5rem;
-     
+
     }
-    .iconquestion{
+
+    .iconquestion {
         font-size: 20px;
         color: #ffffff;
-    
+
     }
-    
-    .icondollormaindiv{
+
+    .icondollormaindiv {
         background-color: #696f86;
         width: 1rem;
         padding: 10px 35px 5px 10px;
@@ -239,101 +250,109 @@ color: #121212;
         flex-direction: column;
         justify-content: center;
         margin-left: -1.5rem;
-      
+
     }
-    .icondollor{
+
+    .icondollor {
         font-size: 18px;
         color: #ffffff;
     }
-    .iconarrow{
+
+    .iconarrow {
         color: #ffffff;
         margin-left: 0.4rem;
         font-size: 15px;
-        
+
     }
-    
-.thisisTimerdiv{
-    width: 5rem;
-    border-radius: 0px 25px 0 25px ;
-    padding: 5px 20px 1px 20px ;
-    margin-left: 2rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-  
-    
-    
-   
-    /* align-items: center; */
-}
 
-.CLOCKIMG{
-  
-    position:absolute;
-    width: 2.7rem;
-    margin-top: -2.5rem;
-    margin-left: 5.5rem;
-    
-}
-
-
-.h4div{
-    font-weight: bold;
-    font-size: 20px !important;
-    margin-left: -2.2rem;
-    margin-top: -0.2rem;
-}
-.Timerdivmain{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   
-}
-.monthanddayshow{
-    font-size: 15px;
-    margin-left: -1rem;
-    margin-top: -0.5rem;
-}
-.maindivtosecondsection{
-    display: flex;
-    margin-left: -2rem;
-}
+    .thisisTimerdiv {
+        width: 5rem;
+        border-radius: 0px 25px 0 25px;
+        padding: 5px 20px 1px 20px;
+        margin-left: 2rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
 
 
 
-.innerbnb{
-    background-color: #ffffff;
-    border-radius: 25px 0px 25px 0;
-    width: 7rem;
-    display: flex;
-    flex-direction: column;
-    height: 3rem;
-    margin-left: 2rem;
-    /* justify-content: space-between; */
-    align-items: center;
-  
-}
-.innerbnb h2{
-    font-size: 15px;
-    font-weight: bold;
-    padding: 7px 0px 7px 20px;
-    color: #280d97;   
-    margin-left:1rem;
-}
 
-.bnbimge{
-    width: 6.2rem;
-    position: absolute;
-    margin-left: -0.5rem;
-    margin-top:-0.1rem;
-}
-.Bnbtodollor{
-    margin-top: -1rem;
-    margin-left: 1rem;
-}
-   
-    
-    
+        /* align-items: center; */
+    }
+
+    .CLOCKIMG {
+
+        position: absolute;
+        width: 2.7rem;
+        margin-top: -2.5rem;
+        margin-left: 5.5rem;
+
+    }
+
+
+    .h4div {
+        font-weight: bold;
+        font-size: 20px !important;
+        margin-left: -2.2rem;
+        margin-top: -0.2rem;
+    }
+
+    .Timerdivmain {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: end;
+
+    }
+
+    .monthanddayshow {
+        font-size: 15px;
+        margin-left: -1rem;
+        margin-top: -0.5rem;
+    }
+
+    /* .maindivtosecondsection {
+        display: flex;
+        margin-left: -2rem;
+    } */
+
+
+
+    .innerbnb {
+        background-color: #ffffff;
+        border-radius: 25px 0px 25px 0;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        height: 3rem;
+        margin-left: 2rem;
+        /* justify-content: space-between; */
+        align-items: center;
+
+    }
+
+    .innerbnb h2 {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 7px 0px 7px 20px;
+        color: #280d97;
+        margin-left: 1rem;
+    }
+
+    .bnbimge {
+        width: 6.2rem;
+        position: absolute;
+        margin-left: -0.5rem;
+        margin-top: -0.1rem;
+    }
+
+    .Bnbtodollor {
+        margin-top: -1rem;
+        margin-left: 1rem;
+    }
+
+
+
 }
 
 
@@ -348,111 +367,118 @@ color: #121212;
 
 @media (min-width:480px) and (max-width:550px) {
 
-    .innerdiv{
+    .innerdiv {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
-      
+
     }
-    .timerseconddivQutionmarq{
+
+    .timerseconddivQutionmarq {
         /* margin-left: -0.5rem; */
-        }
-   
-  
-
-  
-    
-.thisisTimerdiv{
-    width: 5rem;
-    border-radius: 0px 25px 0 25px ;
-    padding: 5px 20px 1px 20px ;
-    margin-left: 2rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-  
-    
-    
-   
-    /* align-items: center; */
-}
-
-.CLOCKIMG{
-  
-    position:absolute;
-    width: 2.7rem;
-    margin-top: -2.5rem;
-    margin-left: 5.5rem;
-    
-}
-
-
-.h4div{
-    font-weight: bold;
-    font-size: 20px !important;
-    margin-left: -2.2rem;
-    margin-top: -0.2rem;
-}
-.Timerdivmain{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end !important;
-   
-}
-.bnbmain{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start !important;
-
-}
-.monthanddayshow{
-    font-size: 15px;
-    margin-left: -1rem;
-    margin-top: -0.5rem;
-}
-.maindivtosecondsection{
-    display: flex;
-    margin-left: -2rem;
-}
+    }
 
 
 
-.innerbnb{
-    background-color: #ffffff;
-    border-radius: 25px 0px 25px 0;
-    width: 7rem;
-    display: flex;
-    flex-direction: column;
-    height: 3rem;
-    margin-left: 2rem;
-    /* justify-content: space-between; */
-    align-items: center;
-  
-}
-.innerbnb h2{
-    font-size: 15px;
-    font-weight: bold;
-    padding: 7px 0px 7px 20px;
-    color: #280d97;   
-    margin-left:1rem;
-}
 
-.bnbimge{
-    width: 6.2rem;
-    position: absolute;
-    margin-left: -0.5rem;
-    margin-top:-0.1rem;
-}
-.Bnbtodollor{
-    margin-top: -1rem;
-    margin-left: 1rem;
-}
-   
-    
-    
+
+    .thisisTimerdiv {
+        width: 5rem;
+        border-radius: 0px 25px 0 25px;
+        padding: 5px 20px 1px 20px;
+        margin-left: 2rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+
+
+
+
+        /* align-items: center; */
+    }
+
+    .CLOCKIMG {
+
+        position: absolute;
+        width: 2.7rem;
+        margin-top: -2.5rem;
+        margin-left: 5.5rem;
+
+    }
+
+
+    .h4div {
+        font-weight: bold;
+        font-size: 20px !important;
+        margin-left: -2.2rem;
+        margin-top: -0.2rem;
+    }
+
+    .Timerdivmain {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: end !important;
+
+    }
+
+    .bnbmain {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start !important;
+
+    }
+
+    .monthanddayshow {
+        font-size: 15px;
+        margin-left: -1rem;
+        margin-top: -0.5rem;
+    }
+
+    /* .maindivtosecondsection {
+        display: flex;
+        margin-left: -2rem;
+    } */
+
+
+
+    .innerbnb {
+        background-color: #ffffff;
+        border-radius: 25px 0px 25px 0;
+        width: 7rem;
+        display: flex;
+        flex-direction: column;
+        height: 3rem;
+        margin-left: 2rem;
+        /* justify-content: space-between; */
+        align-items: center;
+
+    }
+
+    .innerbnb h2 {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 7px 0px 7px 20px;
+        color: #280d97;
+        margin-left: 1rem;
+    }
+
+    .bnbimge {
+        width: 6.2rem;
+        position: absolute;
+        margin-left: -0.5rem;
+        margin-top: -0.1rem;
+    }
+
+    .Bnbtodollor {
+        margin-top: -1rem;
+        margin-left: 1rem;
+    }
+
+
+
 }
 
 
@@ -462,10 +488,10 @@ color: #121212;
 
 
 @media (min-width:380px) and (max-width:480px) {
-    .maindivtosecondsection{
+    /* .maindivtosecondsection {
         display: flex;
         justify-content: center;
-    }
+    } */
 
 }
 
@@ -473,18 +499,19 @@ color: #121212;
 @media (min-width:600px) and (max-width:992px) {
 
 
-    .innerdiv{
+    .innerdiv {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         justify-content: space-between;
         width: 80%;
-      
+
     }
-    .innerdiv div{
+
+    .innerdiv div {
         font-size: 1.5rem;
         color: gray;
         font-weight: bold;
-    
+
     }
 
 }
@@ -493,20 +520,21 @@ color: #121212;
 
 @media (min-width:480px) and (max-width:600px) {
 
-    .innerdiv{
+    .innerdiv {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
-      
+
     }
-    .innerdiv div{
+
+    .innerdiv div {
         font-size: 1.5rem;
         color: gray;
         font-weight: bold;
-    
+
     }
-   
+
 }
 
 
@@ -514,7 +542,7 @@ color: #121212;
 
 
 
-  .displynone{
-    display: none;
-   }
+    .displynone {
+        display: none;
+    }
 }

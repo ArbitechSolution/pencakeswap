@@ -1,6 +1,6 @@
 .App {
-  /* background-color: #dbe1ef;
-    height: 120vh; */
+  background-color: #E5E5E5;
+  height: 120vh;
 }
 
 .App-logo {
@@ -33,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
